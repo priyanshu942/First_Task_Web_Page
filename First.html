@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wix+Madefor+Text:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            padding: 0px;
+            margin: 0px;
+            overflow-x: hidden;
+
+        }
+
+        * {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+            /* background-image: url("https://images.template.net/wp-content/uploads/2014/09/Polygon-Backgrounds-Dark-V4.png"); */
+        }
+
+        body {
+            background-image: url("https://images.template.net/wp-content/uploads/2014/09/Polygon-Backgrounds-Dark-V4.png");
+        }
+
+
+        .navbar {
+            background-color: black;
+            font-family: Calibri;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .navdiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo a {
+            font-size: 35px;
+            font-weight: 300;
+            padding: 5px;
+            color: rgb(62, 60, 60);
+            border-radius: 10px;
+            background-color: white;
+
+        }
+
+        .ul {
+            display: inline-block;
+
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        li a {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+
+        button {
+            background-color: black;
+
+            padding: 10px;
+            width: 120px;
+            margin-right: 15px;
+        }
+
+        button a {
+            color: white;
+            font-size: 15px;
+        }
+
+        .btn {
+            border: 1px solid white;
+            background: none;
+            border-radius: 5px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 80px;
+            font-weight: 300;
+            font-family: wix-madefor;
+            margin-left: 80px;
+
+        }
+
+        h3 {
+            margin-top: -15px;
+            color: white;
+            margin-left: 80px;
+            font-weight: 100;
+            font-family: wix-madefor;
+            font-size: 30px;
+
+        }
+
+        .btn1 {
+            background-color: rgb(255, 95, 95);
+            margin-left: 80px;
+            border: 1px solid black;
+            height: 50px;
+            border-radius: 10px;
+        }
+
+        select {
+            background-color: black;
+            color: white;
+            border: none;
+            margin: 5px;
+        }
+
+        img {
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .thir {
+            margin-top: 140px;
+            border: 2px solid white;
+            height: 280px;
+            text-align: center;
+
+        }
+
+        .btn2 {
+            background-color: rgb(255, 95, 95);
+            border: 1px solid black;
+            height: 50px;
+            border-radius: 10px;
+            margin-left: 10%;
+            margin-top: 20px;
+
+        }
+
+        .four {
+            margin-top: 140px;
+            border: 2px solid rgb(235, 79, 79);
+            border-color: white;
+            text-align: center;
+        }
+
+        .h4head {
+            color: rgb(84, 84, 246);
+        }
+
+        /* 
+        .three {
+            
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            height: 50px;
+            border: 1px solid white;
+            margin-top: 330px;
+        } */
+        .three {
+            display: flex;
+            margin-top: 320px;
+            height: 450px;
+        }
+
+        .tfir {
+            border: 1px solid rgb(84, 80, 80);
+            flex: 50%;
+            padding: 16px;
+            height: 450px;
+
+        }
+
+        .tsec {
+            border: 1px solid rgb(84, 80, 80);
+            flex: 50%;
+            padding: 16px;
+            height: 450px;
+
+        }
+
+        .tfir {
+            margin: auto;
+            background-image: image-set("bgi.jpeg");
+            color: white;
+
+        }
+
+        .tsec {
+            color: white;
+        }
+
+
+
+
+
+
+
+        .fndh {
+            text-align: center;
+            color: white;
+            font-weight: 100;
+            font-size: 40px;
+        }
+
+        .numbe {
+            justify-content: space-evenly;
+            display: flex;
+            margin-top: -30px;
+            flex-direction: row;
+        }
+
+
+
+
+
+
+
+
+        .six {
+            display: flex;
+            margin-left: 150px;
+            margin-right: 275px;
+            height: 450px;
+        }
+
+        .sfir {
+            border: 1px solid rgb(84, 80, 80);
+            flex: 50%;
+            padding: 16px;
+            height: 450px;
+
+        }
+
+        .ssec {
+            border: 1px solid rgb(84, 80, 80);
+            flex: 50%;
+            padding: 16px;
+            height: 450px;
+
+        }
+
+        .sfir {
+            margin: auto;
+            background-image: image-set("bgi.jpeg");
+            color: white;
+
+        }
+
+        .ssec {
+            margin-right: 16px;
+            color: white;
+        }
+
+        .svel {
+            display: flex;
+            align-items: center;
+            margin-top: 150px;
+            font-size: 40px;
+            justify-content: center;
+        }
+
+        .one1 {
+            display: flex;
+            flex-direction: column;
+            margin-left: 60px;
+            margin-top: 90px;
+
+        }
+
+        .info {
+            color: rgb(135, 127, 127);
+            padding: 4px;
+        }
+
+        .seven {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            margin-right: 50px;
+            padding: 20px;
+            justify-content: space-between;
+        }
+
+        .one2 {
+            display: flex;
+            flex-direction: column;
+            margin-left: 70px;
+            margin-top: 90px;
+
+        }
+
+        .info1 {
+            color: rgb(135, 127, 127);
+            padding: 12px;
+        }
+
+        .sub {
+            margin-top: 25px;
+            color: rgb(135, 127, 127);
+            background-color: rgb(17, 17, 17);
+            border: 1px solid white;
+            margin-left: 15px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .onegrid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            border: 1px solid white;
+            color: white;
+            margin-left: 150px;
+            margin-right: 275px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="web page">
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo" style="margin-top: 10px; padding: 15px;">
+                    <a>Verma Tech</a>
+                </div>
+                <ul>
+                    <li><a href="#">Solutions</a> </li>
+                    <li><a href="#">Vision</a> </li>
+                    <li><a href="#">Programs</a> </li>
+                    <li><a href="#">Blog</a> </li>
+                    <img src="appointment-reminders-xxl.png" alt="notification" height="22px">
+                    <img src="pp.png" alt="profilrPhoto" height="22px">
+                    <select name="cars" id="cars">
+                    </select>
+                    <a href="third.html"> <button class="btn" style="color: white; cursor: pointer;">Get
+                            Started</button></a>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main">
+            <h1 style="text-align: centre; margin-top: 10px;">Dive into the New age of<br>Accelerated Analytics </h1>
+            <h3 style="margin-top:  35px; font-size:40px; ">Our Services</h3>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="onegrid">
+        <div class="pic" style="border-right: solid 1px ;">
+            <img src="cd.jpeg" alt="" height="150px"
+                style="align-content: center; margin-top: 20px; padding: 25px; margin-left: 90px;">
+        </div>
+        <div class="info">
+            <div class="heading"
+                style="margin-top: 25px; color: white; font-size: 20px; font-weight: 700;padding: 25px; margin-left: 195px;">
+                Cloud Analytics Modernization
+            </div>
+
+            <div class="content" style="margin-top: 5px; color: white; text-align: center; padding: 5px;">
+                Cloud Analytics Modernization
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double click me to add your own content and make changes to the font. I’m a great place for you to tell
+                a story and let your users know a little more about you.</div>
+        </div>
+    </div>
+    <div class="onegrid">
+        <div class="pic" style="border-right: solid 1px ;">
+            <img src="cd.jpeg" alt="" height="150px"
+                style="align-content: center; margin-top: 20px; padding: 25px;  margin-left: 90px;">
+        </div>
+        <div class="info">
+            <div class="heading"
+                style="margin-top: 25px; color: white; font-size: 20px; font-weight: 700;padding: 25px; margin-left: 195px;">
+                Cloud Analytics Modernization
+            </div>
+
+            <div class="content" style="margin-top: 5px; color: white; text-align: center; padding: 5px;">
+                Cloud Analytics Modernization
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double click me to add your own content and make changes to the font. I’m a great place for you to tell
+                a story and let your users know a little more about you.</div>
+        </div>
+    </div>
+    <div class="onegrid">
+        <div class="pic" style="border-right: solid 1px ;">
+            <img src="cd.jpeg" alt="" height="150px"
+                style="align-content: center; margin-top: 20px; padding: 25px;margin-left: 90px;">
+        </div>
+        <div class="info">
+            <div class="heading"
+                style="margin-top: 25px; color: white; font-size: 20px; font-weight: 700;padding: 25px; margin-left: 195px;">
+                Cloud Analytics Modernization
+            </div>
+
+            <div class="content" style="margin-top: 5px; color: white; text-align: center; padding: 5px;">
+                Cloud Analytics Modernization
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double click me to add your own content and make changes to the font. I’m a great place for you to tell
+                a story and let your users know a little more about you.</div>
+        </div>
+    </div>
+    <div class="onegrid">
+        <div class="pic" style="border-right: solid 1px ;">
+            <img src="cd.jpeg" alt="" height="150px"
+                style="align-content: center; margin-top: 20px; padding: 25px;margin-left: 90px;">
+        </div>
+        <div class="info">
+            <div class="heading"
+                style="margin-top: 25px; color: white; font-size: 20px; font-weight: 700;padding: 25px; margin-left: 195px;">
+                Cloud Analytics Modernization
+            </div>
+
+            <div class="content" style="margin-top: 5px; color: white; text-align: center; padding: 5px;">
+                Cloud Analytics Modernization
+                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double click me to add your own content and make changes to the font. I’m a great place for you to tell
+                a story and let your users know a little more about you.</div>
+        </div>
+    </div>
+
+
+    <div class="six">
+        <div class="sfir">
+            <p class="svel"> We Integerate With<br> your Ecosystem.</p>
+
+        </div>
+        <div class="ssec">
+            <p class="sqpar" style="margin-top: 160px; text-align: center; ">Lorem ipsum dolor sit
+                amet consectetur,
+                adipisicing elit. Dolores sed, officia dicta
+                distinctio est velit nostrum. Minus consectetur, modi tenetur officiis error qui nam dignissimos, velit
+                fugit repellat, sapiente quisquam aspernatur quidem pariatur culpa alias! Atque soluta officia minus
+                dolores. </p>
+
+
+        </div>
+    </div>
+
+    <div class="seven">
+        <div class="one1">
+            <div class="logo">
+                <a>Verma Tech</a>
+            </div>
+            <br>
+            <span class="info">123-456-7890</span>
+            <span class="info">info@mysite.com </span>
+            <span class="info">500 Terry France St</span>
+            <span class="info">San Francisco, CA 94158</span>
+
+        </div>
+        <div class="one2">
+            <span class="info1">Solutions</span>
+            <span class="info1">Vision</span>
+            <span class="info1">Program</span>
+            <span class="info1">Blog</span>
+            <a href="third.html"><button class="btn2" style="cursor: pointer;">Get Started</button></a>
+        </div>
+        <div class="one2">
+            <span class="info1">Suscribe to Our News Letter</span>
+            <p class="email" style="color:rgb(135, 127, 127);margin-left: 15px;  ">Email*</p>
+            <input type="text"
+                style="margin-left: 11px; background-color: rgb(17, 17, 17); border: 1px solid white; padding: 10px; border-radius: 5px; color: rgb(100, 95, 95);">
+            <button class="sub">Submit</button>
+        </div>
+        <div class="one2">
+            <span class="info1"> Follow us On</span>
+            <span style="margin-left: 15px;">
+                <img src="linlk.png" alt="linkedIn" height="25px">
+                <img src="OIP (1).jpeg" alt="linkedIn" height="25px">
+                <img src="teit.png" alt="" height="25px">
+            </span>
+            <div class="logo" style="margin-top: 15px;">
+                <a>VermaTech.io</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
